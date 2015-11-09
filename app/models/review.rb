@@ -1,2 +1,3 @@
-class Review < ActiveRecord::Base
+class Review < ActiveRecord::
+  belongs_to :movie
 end
