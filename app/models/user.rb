@@ -1,8 +1,7 @@
 class User < ActiveRecord::Base
-
   has many :reviews
-end
 
   def full_name
-  {first.name
+    "#{self.first_name} #{self.last_name}"
   end
+end
